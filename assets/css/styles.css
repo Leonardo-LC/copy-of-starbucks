@@ -1,0 +1,311 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body{
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.faixa{
+    background-color: rgb(78, 52, 46);
+}
+
+.container{
+    justify-content: space-between;
+    width: auto;
+    display: flex;
+    padding: 15px;
+    margin:0px;
+    flex: 1;
+    height: 83.5px;
+    
+}
+
+.logo{
+    display: flex;
+    
+    margin-left:auto ;
+    margin-right: auto;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.menu{
+    margin-left:auto ;
+    margin-right: auto;
+    list-style: none;
+    display: inline-block;
+    flex-direction: row;
+    margin: 1px;
+    margin-top: 30px;
+
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 240);
+    font-size: 18px;
+    margin-left: 25px;
+}
+.find{
+    display: flex;
+    margin-left:auto ;
+    margin-right: auto;
+}
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/cho.png');
+    background-position: center;
+    background-size: cover;
+    height: 290.16px;
+    background-color: rgb(255, 248, 200);
+}
+.banner_col{
+    flex-direction: column;  
+}
+.col{
+    margin-top: 90px;
+    margin-left: 100px;
+}
+
+.baheadline{
+   flex: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.baheadline h1{
+    color: rgb(78, 52, 46);
+    font-size: 70px;
+    text-shadow: 1px 1px 0px #ff5100;
+    margin: 0;
+    padding: 0;
+    max-width: 650px;
+}
+.baheadline h2{
+    color: rgb(78, 52, 46);
+    font-size: 25px;
+    text-shadow: 1px 1px 0px #ff5100;
+    margin: 0;
+    padding: 0;
+    max-width: 400px;
+    margin-top: 14px;
+}
+
+.info{
+    margin-top: 35px;
+    background-color: rgb(156, 156, 156);
+    height: 160px;
+    width: 100%;
+    text-align: center;
+}
+
+.info p{
+    font-size: 19px;
+    text-align: center;
+    padding-top: 60px;
+    
+    
+}
+
+.info a{
+    display: inline-block;
+    text-decoration: none;
+    border: solid rgb(78, 52, 46) 1px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-content: center ;
+    margin-top: 10px;
+    color: black;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.blocoz {
+    display: flex; /* Adicionado para tornar o container um flexbox */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-top: 35px;
+    padding: 0px;
+}
+
+.cube1, .cube2 {
+    flex: 1;
+    display: flex; /* Adicionado para permitir a centralização interna dos elementos */
+    flex-direction: column; /* Adicionado para empilhar os elementos verticalmente */
+    justify-content: center; /* Centraliza os elementos filhos verticalmente */
+    align-items: center; /* Centraliza os elementos filhos horizontalmente */
+    margin: 0 0px; /* Adicionado para espaço entre os cubos, você pode ajustar conforme necessário */
+}
+
+.cube1 {
+    background-color: rgb(255, 248, 200);
+    height: 489px;
+    text-align: center;
+}
+
+.cube1 h1 {
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.cube1 h2 {
+    font-size: 21px;
+    margin-top: 10px;
+}
+
+.cube1 a {
+    display: inline-block;
+    text-decoration: none;
+    border: solid rgb(78, 52, 46) 1px;
+    border-radius: 20px;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 10px;
+    color: black;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;        
+}
+
+.cube2 img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.linha{
+    background-color: rgb(175, 175, 175);
+    width: 100%;
+    height: 1px;
+    border-top: 350px;
+    border-bottom: 350px;
+}
+
+.Crodape {
+    background-color: rgb(78, 52, 46);
+    padding: 50px 0; 
+    height: 240px;
+    
+   
+    
+}
+
+
+
+.ajuste {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.rodape, 
+
+.rodas {
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto; 
+    
+}
+
+.rodape h3, 
+.rodas h3 {
+    color: rgb(255, 238, 130);
+    margin-bottom: 15px;
+    margin-top: -50px; 
+    
+}
+
+.rodape ul, .rodas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rodape li, .rodas li {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.rodape a, .rodas a {
+    text-decoration: none;
+    color: rgb(255, 248, 200);
+}
+
+footer{
+    margin-top: 2px;
+}
+
+.final{
+    padding: 10px;
+    background-color:rgb(255, 248, 200) ;
+   
+}
+
+.final a{
+    padding: 5px;
+}
+.final img{
+    margin-top: 30px;
+}
+
+.linhaz{
+    background-color: rgb(148, 148, 148);
+    width: 100%;
+    height: 2px;
+}
+
+.linkz{
+    margin-top: 15px;
+    text-decoration: none;
+}
+.linkz a{
+    text-decoration: none;
+    color: black;
+}
+.footer_copy{
+    margin-top: 30px;
+    opacity: 50%    ;
+}
+
+.logo a:hover, .find a:hover{
+    color:rgb(255, 164, 78);
+    font-size: 18.5px;
+}
+
+.info a:hover{
+    font-size: 16.5px;
+}
+
+.blocoz a:hover{
+    font-size: 16.5px;
+}
+
+.cube1 a:hover{
+    font-size: 16.5px;
+}
+
+.ajuste a:hover{
+    color:rgb(255, 164, 78);
+    
+}
+
+.final_icon img:hover{
+    height: 33.5px;
+    width: 33.5px;
+    opacity: 80%;
+}
+
+.margem{
+    margin-left: 90px;
+}
